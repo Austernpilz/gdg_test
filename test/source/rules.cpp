@@ -42,8 +42,9 @@ void Rules::load_rule(std::string& s)
 }
   
 
-void Rules::build_regions(Seq_Map& m)
+void Rules::build_regions()
 {
+  Seq_Map m;
   for(auto& r : r_LookUp)
   {
     Region container;
@@ -91,8 +92,9 @@ void Rules::build_regions(Seq_Map& m)
       m.load_region(container);
       m.size += container.r_size;
     }
-  }
+    return m;
 }
+
   
 
 

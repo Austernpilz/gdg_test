@@ -5,7 +5,7 @@
 #include <sstream>
 
 
-// struct Constrains{};
+
 
 class Seq_Map
 {

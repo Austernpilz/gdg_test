@@ -14,7 +14,6 @@
 
 // #include "../Util/sequence.hpp"
 #include "rules.hpp"
-#include "seq_map.hpp"
 #include "region.hpp"
 
 

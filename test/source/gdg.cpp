@@ -59,9 +59,7 @@ void gdg::run()
       r.load_rule(line);
     }
 
-    Seq_Map m;
-
-    r.build_regions(m);
+    auto m = r.build_regions();
 
 
     
