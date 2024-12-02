@@ -33,7 +33,7 @@ void Seq_Map::polyform(std::vector<std::string>& poly)
   {
     std::vector<std::string> arg_val = clean_string(v, char ' ');
   
-    swicht(arg_val[0])
+    switch(arg_val[0])
     {
       case ("w"):
         double w = 1 - std::atod(arg_val[1]);

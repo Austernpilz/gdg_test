@@ -59,7 +59,7 @@ void Rules::load_rule(std::string& s)
       {
         std::vector<std::string> arg_val = clean_string(v.r_arg, char ' ');
 
-        swicht(arg_val[0])
+        switch(arg_val[0])
         {
           case ("e"):
             container.size = std::atoi(arg_val[1]);
