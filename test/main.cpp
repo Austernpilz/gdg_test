@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     auto s = &(argv[i+1]);
 
     std::cout << ma << " " << s;
-    if (ma) == "-ref")
+    if (ma == "-ref")
     {dna.set_ref_genom(s);}
     if (ma == "-s")
         {dna.set_size(s);}
