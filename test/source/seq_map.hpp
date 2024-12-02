@@ -7,7 +7,7 @@
 
 // struct Constrains{};
 
-struct Seq_Map
+class Seq_Map
 {
   std::string name;
   double size = 0;
