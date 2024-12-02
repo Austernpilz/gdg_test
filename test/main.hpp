@@ -16,4 +16,4 @@
 #include <fstream>
 #include <sstream>
 
-#include "/source/gdg.hpp"
+#include "source/gdg.hpp"
