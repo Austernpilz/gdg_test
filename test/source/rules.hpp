@@ -22,7 +22,7 @@ class Rules
 
     std::vector<std::string> string_to_arglist(std::string & s, char seperator){};
 
-    typedef <Template t>
+    template <typename t>
     std::map<std::string, std::vector<t>> r_LookUp;
     std::map<std::string, std::vector<t>> p_LookUp;
     std::map<std::string, std::vector<t>> s_LookUp;
