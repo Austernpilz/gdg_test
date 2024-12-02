@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "regions.hpp"
+#include "region.hpp"
 #include "map.hpp"
 // #include "values.hpp"
 #include "../Util/DNA.hpp"

@@ -1,6 +1,6 @@
 // #include<string>
 #pragma once
-#include "DNA.hpp"
+#include "../Util/DNA.hpp"
 // #include "sequence.hpp"
 #include "../Util/markov_chain.hpp"
 #include <iostream>
