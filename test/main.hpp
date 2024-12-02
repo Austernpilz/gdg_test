@@ -3,8 +3,8 @@
 //SeqAn3 Alphabets, hashing, vectors and strings, sequence_object???
 
 #pragma once
-#include "kmc/include/kmc_runner.h"
-#include "kmc/kmc_api/kmc_file.h"
+#include "../../kmc/kmc/include/kmc_runner.h"
+#include "../../kmc/kmc/kmc_api/kmc_file.h"
 
 #include <algorithm>
 #include <iostream>
