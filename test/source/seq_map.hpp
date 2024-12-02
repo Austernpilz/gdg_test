@@ -4,8 +4,6 @@
 #include <fstream>
 #include <sstream>
 
-#include <iostream.h>
-#include <stdio.h>
 
 // struct Constrains{};
 
