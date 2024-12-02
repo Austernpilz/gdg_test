@@ -8,22 +8,14 @@ int main(int argc, char *argv[])
   {
     std::string ma = argv[i];
     std::string s = argv[i+1];
-    switch(ma)
-    {
-      case ("-ref"):
-        dna.set_ref_genom(s);
-        break;
-      case ("-s"):
-        dna.set_size(s);
-        break;
-      case ("-o"):
-        dna.load_output_path(s);
-      case ("-c"):
-        dna.read_config_file(s);
-        break;
-      default:
-        break;
-    }
+    if (ma == "-ref")
+    {dna.set_ref_genom(s);}
+    if (ma == "-s")
+        {dna.set_size(s);}
+    if (ma == "-o")
+        {dna.load_output_path(s);}
+    if (ma == "-c")
+       { dna.read_config_file(s);}
   }
   dna.run();
 }

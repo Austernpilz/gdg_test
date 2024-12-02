@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include "region.hpp"
-
+#inclue "seq_map.hpp"
 // #include "values.hpp"
 #include "../Util/DNA.hpp"
 // #include "sequence.hpp"
@@ -25,7 +25,7 @@ class Rules
 
    
 
-    void prepare(std::vector<Seq_Map> & m_vec){};
+    // void prepare(std::vector<Seq_Map> & m_vec){};
 
     struct Rule
     {
