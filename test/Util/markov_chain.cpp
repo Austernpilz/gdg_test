@@ -18,7 +18,7 @@ ToDo:
 
 
 
-void Markov_Chain::build_kmer_db(input_file_name, input_file_type, output_file_name, threads)
+void Markov_Chain::build_kmer_db(std::string & input_file_name, KMC::InputFileType & input_file_type,std::string & output_file_name,int threads)
 {
   try
   {

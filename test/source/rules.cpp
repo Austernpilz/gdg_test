@@ -68,7 +68,7 @@ void Rules::load_rule(std::string& s)
             container.build_pre(arg_val);
             break;
           case ("m"):
-            container.mutation = true;
+            container.is_mutation = true;
             container.build_pre(arg_val, false);
           case ("n"):
             i = std::atoi(arg_val[1]);

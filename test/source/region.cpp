@@ -103,7 +103,7 @@ void Region::load(std::vector<Region> & reg_vec)
         markovchain = r.markov_chain;
         testsequence = r.testsequence;
         
-        if (mutations)
+        if (is_mutation)
         {
           double m = mutations[i];
           mutate(m);
@@ -240,21 +240,6 @@ void Region::deletion(double m, int min_d, int max_d)
   }
 }
 
-  // std::map<uint8_t, std::map<char, double> > markovchain;
-  // markovchain = testchain.build_markov_chain(output_file_name, threads);
-
-
-  // std::vector<char> testsequence = {'A', 'C', 'G', 'T'};
-  // int length = 10000;
-
-
-  // // std::cout << "Testsequence before " << '\n';
-  // // for (auto& elem : testsequence)
-  // // {
-  // //     std::cout << elem;
-  // // }
-
-  // generate_sequence(markovchain, testsequence, length);
 void Region::load_instructions(Rules::rule & d)
 {
   name = d.name;

@@ -20,18 +20,18 @@ class Rules
 
     void build_region(Seq_Map & m, Rules & r){};
 
-    std::vector<string> string_to_arglist(std::string & s, char seperator){};
+    std::vector<std::string> string_to_arglist(std::string & s, char seperator){};
 
-    std::map<std::string, std::vector<Rule>> r_LookUp;
-    std::map<std::string, std::vector<Rule>> p_LookUp;
-    std::map<std::string, std::vector<Rule>> s_LookUp;
+    std::map<std::string, std::vector<Rules::Rule>> r_LookUp;
+    std::map<std::string, std::vector<Rules::Rule>> p_LookUp;
+    std::map<std::string, std::vector<Rules::Rule>> s_LookUp;
 
     void prepare(std::vector<Seq_Map> & m_vec){};
 
     struct Rule
     {
       std::string r_name;
-      std::vector<string> r_arg;
+      std::vector<std::string> r_arg;
       
       void load_args(std::string & name, std::string & specs){};
     };

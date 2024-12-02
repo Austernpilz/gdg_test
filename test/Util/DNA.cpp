@@ -12,7 +12,7 @@ char DNA::cast_from(uint8_t i)
   return to2_char[i];
 }
 
-uint8_t DNA::hash2(const std::string & s)
+uint8_t DNA::hash(const std::string & s)
 {
   uint8_t returnvalue = to2_int[s[0]];
 

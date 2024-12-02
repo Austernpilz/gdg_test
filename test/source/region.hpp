@@ -6,6 +6,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include<string>
 // #include "rules.hpp"
 
 
@@ -16,8 +17,8 @@ class Region
     std::string reference;
     double r_size = 0;
     bool fixed = false;
-    bool mutation = false;
-    unsigned priority 42;
+    bool is_mutation = false;
+    unsigned priority = 42;
 
     void generate_sequence(){};
 
@@ -27,7 +28,7 @@ class Region
 
     std::map<uint8_t, std::map<char, double> > markovchain;
     std::vector<std::string> preferences;
-    std::vector<std::double> mutations;
+    std::vector<double> mutations;
 
 
     std::vector<char> testsequence = {'A', 'C', 'G', 'T'};
