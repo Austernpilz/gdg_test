@@ -7,8 +7,8 @@ int main(int argc, char *argv[])
   for (uint8_t i = 1; i<argc; ++i)
   {
     
-    auto ma = &(argv[i]);
-    auto s = &(argv[i+1]);
+    std::string ma = argv[i];
+    std::string s = argv[i+1];
 
     std::cout << ma << " " << s;
     if (ma == "-ref")
