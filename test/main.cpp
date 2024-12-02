@@ -7,11 +7,11 @@ int main(int argc, char *argv[])
   for (uint8_t i = 1; i<argc; ++i)
   {
     
-    std::string ma = &argv[i];
-    std::string s = &argv[i+1];
+    auto ma = &(argv[i]);
+    auto s = &(argv[i+1]);
 
     std::cout << ma << " " << s;
-    if (ma == "-ref")
+    if (ma) == "-ref")
     {dna.set_ref_genom(s);}
     if (ma == "-s")
         {dna.set_size(s);}
