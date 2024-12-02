@@ -33,25 +33,24 @@ void Seq_Map::polyform(std::vector<std::string>& poly)
   {
     std::vector<std::string> arg_val = clean_string(v, char ' ');
   
-    switch(arg_val[0])
-    {
-      case ("w"):
-        double w = 1 - std::atod(arg_val[1]);
+    
+    if (arg_val[0] =="w")
+        {double w = 1 - std::atod(arg_val[1]);
         for (auto% r: m.container_vec)
         {
           r.mutate(w);
-        }
-        break;
-      case ("s"):
-        double w = std::atod(arg_val[1]);
+        }}
+
+    if (arg_val[0] =="s")
+       { double w = std::atod(arg_val[1]);
         for (auto% r: m.container_vec)
         {
           r.insert(w);
-        }
-        break;
+        }}
 
-      case ("d"):
-        double w = std::atod(arg_val[2]);
+
+    if (arg_val[0] =="d")
+        {double w = std::atod(arg_val[2]);
 
         bool t = true;
         string s_min;
@@ -82,8 +81,8 @@ void Seq_Map::polyform(std::vector<std::string>& poly)
         {
           r.deleteion(w, min_d, max_d);
         }
-
-      case ("x"):
+}
+      {if (arg_val[0] == "x"):
         double w = std::atod(arg_val[2]);
         bool t = true;
         string s_min;
