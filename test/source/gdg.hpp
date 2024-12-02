@@ -1,8 +1,6 @@
 #pragma once
 #include<string>
 // #include<SeqAN3>
-
-
 #include <algorithm>
 #include <iostream>
 #include <string>
@@ -13,7 +11,6 @@
 
 #include <fstream>
 #include <sstream>
-
 
 // #include "../Util/sequence.hpp"
 #include "rules.hpp"

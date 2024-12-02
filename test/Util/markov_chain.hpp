@@ -8,7 +8,7 @@
 #include "../../../kmc/kmc/include/kmc_runner.h"
 #include "../../../kmc/kmc/kmc_api/kmc_file.h"
 // #include "seqan3/include/alphabet/nucleotide/dna4.hpp"
-
+#include "DNA.hpp"
 
 class Markov_Chain
 {

@@ -1,6 +1,5 @@
 
 #include "markov_chain.hpp"
-#include "DNA.hpp"
 
 /*
 ToDo:

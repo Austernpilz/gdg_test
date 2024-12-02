@@ -1,5 +1,4 @@
 
-#pragma once
 #include "seq_map.hpp"
 
 void Seq_Map::load_regions(Region& r)
