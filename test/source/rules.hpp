@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include "region.hpp"
-#include "map.hpp"
+#include "seq_map.hpp"
 // #include "values.hpp"
 #include "../Util/DNA.hpp"
 // #include "sequence.hpp"
