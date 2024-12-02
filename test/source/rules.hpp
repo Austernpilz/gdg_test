@@ -22,10 +22,8 @@ class Rules
 
     std::vector<std::string> string_to_arglist(std::string & s, char seperator){};
 
-    template <typename t>
-    std::map<std::string, std::vector<t>> r_LookUp;
-    std::map<std::string, std::vector<t>> p_LookUp;
-    std::map<std::string, std::vector<t>> s_LookUp;
+
+   
 
     void prepare(std::vector<Seq_Map> & m_vec){};
 
@@ -36,6 +34,10 @@ class Rules
       
       void load_args(std::string & name, std::string & specs){};
     };
+
+    std::map<std::string, std::vector<Rules::Rule>> r_LookUp;
+    std::map<std::string, std::vector<Rules::Rule>> p_LookUp;
+    std::map<std::string, std::vector<Rules::Rule>> s_LookUp;
     // void sort_rules(){};
   // protected:
 
