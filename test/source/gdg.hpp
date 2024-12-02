@@ -36,7 +36,7 @@ class gdg {
 
     void load_output_path(std::string & s){};
 
-    // std::vector<Seq_Map> seqm_v;
+
     double gdg_size;
     std::string ref_genom;
     std::string config_file;

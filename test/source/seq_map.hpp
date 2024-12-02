@@ -15,6 +15,7 @@ class Seq_Map
   std::vector<Region> container_vec;
   // void load(std::string & name, ){};
   void polyform(std::vector<std::string>& poly){};
+  void load_regions(Region& r){};
   void run(){};
   
 };
