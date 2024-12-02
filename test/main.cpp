@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
   gdg dna;
   for (uint8_t i = 1; i<argc; ++i)
   {
-    std::string s = argv[i+1]
+    std::string s = argv[i+1];
     switch(argv[i])
     {
       case ("-ref"):
